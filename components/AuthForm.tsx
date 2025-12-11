@@ -137,8 +137,6 @@ const AuthForm = ({ type }: { type: FormType }) => {
             <Button className="btn" type="submit">
               {isSingIn ? "SignIn" : "Create an Account"}
             </Button>
-
-            <Button type="submit">Submit</Button>
           </form>
         </Form>
         <p className="text-center">
