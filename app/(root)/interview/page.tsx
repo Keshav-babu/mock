@@ -1,4 +1,3 @@
-// import Agent from "@/components/Agent";
 import Agent from "@/components/Agent";
 import InterviewTypeForm from "@/components/InterviewTypeForm";
 import { getCurrentUser } from "@/lib/actions/auth.action";

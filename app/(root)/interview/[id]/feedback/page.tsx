@@ -1,26 +1,3 @@
-// import { getCurrentUser } from "@/lib/actions/auth.action";
-// import {
-//   getFeedbackByInterviewId,
-//   getInterviewById,
-// } from "@/lib/actions/general.action";
-// import { redirect } from "next/navigation";
-// import React from "react";
-
-// const Page = async ({ params }: RouteParams) => {
-//   const { id } = await params;
-//   const user = await getCurrentUser();
-//   const interview = await getInterviewById(id);
-//   if (!interview) redirect("/");
-//   const interviewFeedback = await getFeedbackByInterviewId({
-//     interviewId: id,
-//     userId: user?.id,
-//   });
-//   console.log("interviewFeedback", { interviewFeedback });
-//   return <div>page</div>;
-// };
-
-// export default Page;
-
 import dayjs from "dayjs";
 import Link from "next/link";
 import Image from "next/image";

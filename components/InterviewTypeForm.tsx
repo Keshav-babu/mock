@@ -1,6 +1,4 @@
 "use client";
-
-import React from "react";
 import {
   Form,
   FormControl,
@@ -14,7 +12,6 @@ import { Button } from "./ui/button";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { getCurrentUser } from "@/lib/actions/auth.action";
 import { Input } from "./ui/input";
 import {
   Select,
@@ -236,17 +233,6 @@ const InterviewTypeForm = ({
                 <FormDescription>
                   How many interview questions should we generate?
                 </FormDescription>
-                {/* <FormControl>
-                  <Input
-                    type="number"
-                    min={1}
-                    {...field}
-                    onChange={(e) => {
-                      const num = Number(e.target.value);
-                      field.onChange(num < 1 ? 1 : num);
-                    }}
-                  />
-                </FormControl> */}
                 <FormControl>
                   <div className="flex items-center gap-2">
                     <Button
